@@ -379,7 +379,7 @@ h4 {
 
 .topnav--visible .topnav__social-icons {
   position: absolute;
-  bottom: 5rem;
+  bottom: 3rem;
 }
 
 .topnav--visible .topnav__social-icons > *:first-child {

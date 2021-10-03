@@ -1,10 +1,10 @@
 // MOBILE NAV
-const mainWrapper = document.getElementsByClassName("wrapper-main")[0];
+const bodyTag = document.getElementsByTagName("body")[0];
 const headerTag = document.getElementsByClassName("header")[0];
 const hamburgerBtn = document.getElementsByClassName("hamburger-btn")[0];
 
 hamburgerBtn.addEventListener("click", () => {
-  mainWrapper.classList.toggle("--disable-scroll");
+  bodyTag.classList.toggle("--disable-scroll");
   headerTag.classList.toggle("topnav--visible");
 });
 // END MOBILE NAV
