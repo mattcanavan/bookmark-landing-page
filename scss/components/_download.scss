@@ -1,0 +1,49 @@
+.download-text {
+  text-align: center;
+}
+
+.download-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__card {
+    width: 250px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 5px 5px 10px var(--clr-neutral-grayishblue);
+    border-radius: 8px;
+
+    &:nth-child(2) {
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+    }
+
+    & svg {
+      display: block;
+      width: 100%;
+    }
+
+    & p {
+      color: var(--clr-neutral-grayishblue);
+    }
+  }
+}
+
+@media (min-width: 50em) {
+  .download-list {
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    &__card:nth-child(2) {
+      transform: translateY(2.5rem);
+    }
+
+    &__card:nth-child(3) {
+      transform: translateY(5rem);
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.cta-outter {
+  background-color: var(--clr-primary-blue);
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.cta {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 25rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+  color: var(--clr-neutral-white);
+
+  &__subheading,
+  &__heading {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__input {
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+}

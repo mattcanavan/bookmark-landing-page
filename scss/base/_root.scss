@@ -1,0 +1,24 @@
+:root {
+  --clr-primary-blue: hsl(231, 69%, 60%);
+  --clr-primary-red: hsl(0, 94%, 66%);
+
+  --clr-neutral-white: white;
+  --clr-neutral-grayishblue: hsl(229, 8%, 60%);
+  --clr-neutral-darkblue: hsl(229, 31%, 21%);
+
+  --ff-primary: "Rubik", sans-serif;
+
+  --fs-400: 1.125rem;
+  --fs-500: 1.5rem;
+  --fs-600: 1.75rem;
+  --fs-700: 2rem;
+
+  --fw-400: 400;
+  --fw-500: 600;
+
+  --section-spacer: 5rem;
+
+  @media (min-width: 50em) {
+    --fs-700: 2.25rem;
+  }
+}

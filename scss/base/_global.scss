@@ -1,0 +1,46 @@
+body {
+  overflow-x: hidden;
+  font-family: var(--ff-primary);
+  font-size: var(--fs-400);
+  color: var(--clr-neutral-darkblue);
+}
+
+.wrapper-main {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.--disable-scroll {
+  overflow-y: hidden;
+}
+
+h1 {
+  font-size: var(--fs-700);
+  font-weight: var(--fw-500);
+}
+
+h2 {
+  font-size: var(--fs-600);
+  font-weight: var(--fw-500);
+}
+
+h4 {
+  font-size: var(--fs-500);
+  font-weight: var(--fw-500);
+}
+
+.paragraph {
+  color: var(--clr-neutral-grayishblue);
+  line-height: 1.5rem;
+  width: 30ch;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (min-width: 50em) {
+    width: 41ch;
+  }
+}
