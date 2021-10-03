@@ -163,14 +163,23 @@ table {
   border-spacing: 0;
 }
 
+details > summary {
+  list-style: none;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
 body {
-  overflow-x: hidden;
   font-family: var(--ff-primary);
   font-size: var(--fs-400);
   color: var(--clr-neutral-darkblue);
 }
 
 .wrapper-main {
+  position: relative;
+  overflow-x: hidden;
   max-width: 60rem;
   margin: 0 auto;
   padding-left: 1rem;
