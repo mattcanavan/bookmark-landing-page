@@ -1,12 +1,11 @@
 body {
+  overflow-x: hidden;
   font-family: var(--ff-primary);
   font-size: var(--fs-400);
   color: var(--clr-neutral-darkblue);
 }
 
 .wrapper-main {
-  position: relative; //safari bug
-  overflow-x: hidden; //safari bug. overflow must be on wrapper not body/html
   max-width: 60rem;
   margin: 0 auto;
   padding-left: 1rem;
